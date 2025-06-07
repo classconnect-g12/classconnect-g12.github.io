@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background: #4683a1;
+  color: white;
+  padding: 0.5rem 2rem;
+  position: relative;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0.5rem 0 0.25rem 0;
+  font-size: 1.8rem;
+}
+
+header nav {
+  margin-top: 0;
+}
+
+.back {
+  left: 25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.4rem 1rem;
+  color: #2c3e50;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.9rem;
+  background-color: #eaeaea;
+  border-radius: 6px;
+  max-width: 100px;
+  box-sizing: border-box;
+  transition: background 0.2s ease;
+}
+
+.back:hover {
+  background-color: #d0d0d0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
+  margin: 1rem auto 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  background: white;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.centered {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.button {
+  padding: 1rem 2rem;
+  background: #4683a1;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
